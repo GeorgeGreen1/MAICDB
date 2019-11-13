@@ -1,0 +1,5 @@
+ALTER TABLE [dbo].[Events]
+ADD Tran_Mode VARCHAR(3) NOT NULL DEFAULT 'INS';
+
+ALTER TABLE [dbo].[Participants]
+ADD Tran_Mode VARCHAR(3) NOT NULL DEFAULT 'INS';
