@@ -1,0 +1,1 @@
+ALTER TABLE dbo.EventParticipts ADD PRIMARY KEY(Event_key,Particip_Key);
