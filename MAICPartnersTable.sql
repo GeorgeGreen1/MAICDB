@@ -1,0 +1,5 @@
+CREATE TABLE MAICPartners(
+	id INT NOT NULL IDENTITY,
+	name VARCHAR(55),
+	PRIMARY KEY(id)
+);

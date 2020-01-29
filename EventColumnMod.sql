@@ -1,0 +1,23 @@
+ALTER TABLE Events DROP CONSTRAINT Internal_Host;
+
+ALTER TABLE Events
+ALTER COLUMN Primary_Act INT;
+
+
+ALTER TABLE Events
+ALTER COLUMN Secondary_Act INT;
+
+ALTER TABLE Events
+ALTER COLUMN Tertiary_Act INT;
+
+ALTER TABLE Events
+ALTER COLUMN Primary_MAIC INT;
+
+ALTER TABLE Events
+ALTER COLUMN Secondary_MAIC INT;
+
+ALTER TABLE Events
+ALTER COLUMN Tertiary_MAIC INT;
+
+ALTER TABLE Events
+ADD CONSTRAINT Internal_Host CHECK ([Ext_Partner_Host]=1 OR [Primary_MAIC] IS NOT NULL);
