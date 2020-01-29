@@ -1,0 +1,5 @@
+CREATE TABLE MAICPrograms(
+	id INT NOT NULL IDENTITY,
+	name VARCHAR(55),
+	PRIMARY KEY(id)
+);

@@ -1,0 +1,14 @@
+INSERT INTO FundingSources (name) VALUES ('ANA');
+INSERT INTO FundingSources (name) VALUES ('EHDI');
+INSERT INTO FundingSources (name) VALUES ('NB3');
+INSERT INTO FundingSources (name) VALUES ('State-language');
+INSERT INTO FundingSources (name) VALUES ('DHS');
+INSERT INTO FundingSources (name) VALUES ('DHS-Title II');
+INSERT INTO FundingSources (name) VALUES ('DPS-YIP');
+INSERT INTO FundingSources (name) VALUES ('United Way');
+INSERT INTO FundingSources (name) VALUES ('Tribal Funding');
+INSERT INTO FundingSources (name) VALUES ('BCBS');
+INSERT INTO FundingSources (name) VALUES ('Donor');
+INSERT INTO FundingSources (name) VALUES ('Revenue generated');
+INSERT INTO FundingSources (name) VALUES ('Proof Alliance');
+INSERT INTO FundingSources (name) VALUES ('Other');

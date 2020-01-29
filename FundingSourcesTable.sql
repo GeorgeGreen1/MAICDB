@@ -1,0 +1,5 @@
+CREATE TABLE FundingSources(
+	id INT NOT NULL IDENTITY,
+	name VARCHAR(55),
+	PRIMARY KEY (id),
+)
