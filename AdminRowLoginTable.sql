@@ -1,0 +1,9 @@
+USE [MAIC]
+GO
+
+ALTER TABLE Login
+ADD Is_Admin BIT;
+
+GO
+
+
