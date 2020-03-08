@@ -1,0 +1,3 @@
+/*DELETE FROM Participants;*/
+ALTER TABLE Participants ALTER COLUMN Gender VARCHAR(12);
+ALTER TABLE Participants ALTER COLUMN Race VARCHAR(50);
